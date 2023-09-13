@@ -6,7 +6,7 @@ import itertools
 
 from descriptor_strings import stringtolist
 
-openai.api_key = None #FILL IN YOUR OWN HERE
+import openai
 
 
 def generate_prompt(category_name: str):
